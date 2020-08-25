@@ -10,3 +10,4 @@
 
 - HTML, CSS, JS
 - React + Redux
+- Node + Express
