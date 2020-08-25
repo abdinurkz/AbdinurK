@@ -7,3 +7,6 @@
 
 
 ### Languages and Tools:
+
+- HTML, CSS, JS
+- React + Redux
