@@ -11,3 +11,4 @@
 - HTML, CSS, JS
 - React + Redux
 - Node + Express
+- Mongo, Postgre
