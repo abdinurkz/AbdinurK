@@ -9,7 +9,9 @@
 ### Languages and Tools:
 
 - HTML, CSS, JS
+- SASS, BEM
 - React + Redux
 - Node + Express
 - Mongo, Postgre
 - Material UI, Bootstrap, Materialize
+- Webpack, Babel
