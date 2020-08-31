@@ -14,5 +14,5 @@
 - React + Redux
 - Node + Express
 - Mongo, Postgre
-- Material UI, Bootstrap, Materialize
+- Material UI, Bootstrap, Materialize, Antd
 - Webpack, Babel
