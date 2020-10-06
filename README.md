@@ -12,6 +12,6 @@
 - SASS, BEM
 - React + Redux
 - Node + Express
-- Mongo, Postgre
+- Mongo, PostgreSQL
 - Material UI, Bootstrap, Materialize, Antd
 - Webpack, Babel
