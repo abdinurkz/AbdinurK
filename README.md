@@ -8,10 +8,10 @@
 
 ### Languages and Tools:
 
-- HTML, CSS, JS
-- SASS, BEM
-- React + Redux
-- Node + Express
-- Mongo, PostgreSQL
+- HTML, CSS, JS, TS
+- SASS, BEM, Styled components
+- React + Redux / Effector
+- Node + Express / Koa
+- Mongo, PostgreSQL, MySQL
 - Material UI, Bootstrap, Materialize, Antd
-- Webpack, Babel
+- Webpack, Babel, Eslint, Prettier, 
