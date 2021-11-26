@@ -1,16 +1,16 @@
-### Hi there! 👋 My name is Abdinur
+### Здравствуй! 👋 я Абдинур
 
-- 🌱 I’m currently learning ...
-- 💡 Focusing ...
-- 🤓 Learning all days...
+- 🌱 Учу новые технологии
+- 💡 Люблю решать интересные задачи
+- 🤓 Готов к сотрудничеству
 
 
 
-### Languages and Tools:
+### Языки и технологии:
 
-- HTML, CSS, JS, TS
+- HTML5, CSS, Javascript, Typescript, Git
 - SASS, BEM, Styled components
-- React + Redux / Effector
+- React + Redux (Saga/Thunk) / Effector
 - Node + Express / Koa
 - Mongo, PostgreSQL, MySQL
 - Material UI, Bootstrap, Materialize, Antd
