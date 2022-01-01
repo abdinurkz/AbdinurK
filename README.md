@@ -8,7 +8,7 @@
 
 ### Языки и технологии:
 
-- HTML5, CSS, Javascript, Typescript, Git
+- HTML5, CSS, ES6+, Typescript, Git
 - SASS, BEM, Styled components
 - React + Redux (Saga/Thunk) / Effector
 - Node + Express / Koa
