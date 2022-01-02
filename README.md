@@ -10,7 +10,7 @@
 
 - HTML5, CSS, ES6+, Typescript, Git
 - SASS, BEM, Styled components
-- React + Redux (Saga/Thunk) / Effector
+- React + Redux (Saga / Thunk) / Effector
 - Node + Express / Koa
 - Mongo, PostgreSQL, MySQL
 - Material UI, Bootstrap, Materialize, Antd
