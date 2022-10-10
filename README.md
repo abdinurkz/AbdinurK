@@ -10,8 +10,9 @@
 
 - HTML5, CSS, ES6+, Typescript, Git
 - SASS, BEM, Styled components
-- React + Redux (Saga / Thunk) / Effector
-- Node + Express / Koa
-- Mongo, PostgreSQL, MySQL
+- React, Redux Toolkit, Next.js
 - Material UI, Bootstrap, Materialize, Antd
 - Webpack, Babel, Eslint, Prettier, 
+
+- Node + Express / Koa
+- Mongo, PostgreSQL, MySQL
