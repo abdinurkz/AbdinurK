@@ -95,6 +95,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.page-content {
+  max-width: 42rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a {
   color: inherit;
   text-decoration: none;

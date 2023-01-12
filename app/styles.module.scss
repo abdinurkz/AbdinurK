@@ -1,0 +1,25 @@
+.page-wrapper {
+    max-width: 42rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-content {
+    padding-left: 12px;
+}
+
+.full-name {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -.025em;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
