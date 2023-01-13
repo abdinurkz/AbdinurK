@@ -12,7 +12,7 @@ export default function Home() {
                             Қуатбек Әбдінұр
                         </h1>
                         <h2 className={styles['position']}>
-                            Орташа фронтенд әзірлеуші
+                            Middle фронтенд әзірлеуші
                         </h2>
                         <p className={styles['description']}>
                             Идеяларымды жүзеге асыру арқылы әлемді жақсартқым келеді.
