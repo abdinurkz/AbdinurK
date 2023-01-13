@@ -5,7 +5,7 @@ import { Header } from '../components/Header'
 
 const font = Fira_Code({
   subsets: ['latin'],
-  display: 'optional',
+  display: 'swap',
 })
 
 export default function RootLayout({
