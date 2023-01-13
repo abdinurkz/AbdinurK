@@ -95,7 +95,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.page-content {
+.page-wrapper {
   max-width: 42rem;
   width: 100%;
   display: flex;
@@ -103,6 +103,10 @@ body {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.page-content {
+  padding-left: 12px;
 }
 
 a {
