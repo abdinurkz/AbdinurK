@@ -15,7 +15,7 @@ export default function Home() {
                             Орташа фронтенд әзірлеуші
                         </h2>
                         <p className={styles['description']}>
-
+                            Идеяларымды жүзеге асыру арқылы әлемді жақсартқым келеді.
                         </p>
                     </div>
                     <figure>

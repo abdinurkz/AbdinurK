@@ -1,16 +1,17 @@
+import { ReactNode } from 'react'
 import { Fira_Code } from '@next/font/google'
 import { Header } from '../components/Header'
 
 
 const font = Fira_Code({
-  weight: '400',
   subsets: ['latin'],
+  display: 'optional',
 })
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: ReactNode
 }) {
   return (
     <html lang='en' className={font.className}>
