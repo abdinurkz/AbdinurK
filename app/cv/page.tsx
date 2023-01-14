@@ -6,11 +6,7 @@ export default function CV() {
     return (
         <main className={styles['page-wrapper']}>
             <section className={styles['page-content']}>
-                {/* <div>
-                    <Image priority src="/decode.png" alt="company logo" width={130} height={30} />
-                </div> */}
                 <div>
-                    <Image priority src="/pythonrpa.png" alt="company logo" width={130} height={30} />
                     <p>
                         BPM процестерінің дамуы.
                         Негізгі стек: React, Django.
@@ -19,7 +15,6 @@ export default function CV() {
                     </p>
                 </div>
                 <div>
-                    <Image priority src="/gocrowd.svg" alt="company logo" width={130} height={40} />
                     <p>
                         Краудфандингтік инвестициялар үшін платформа әзірленді және жүргізілді.
                         Негізгі стек болды: React, PostgreSQL, Ruby on Rails.
