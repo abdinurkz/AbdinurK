@@ -8,16 +8,16 @@ export const Header = () => {
         <nav className={styles['menu']}>
             <ul className={styles['menu-list']}>
                 <li className={styles['menu-item']}>
-                    <Link href="/">Басты бет</Link>
+                    <Link href="/">Main</Link>
                 </li>
                 <li className={styles['menu-item']}>
-                    <Link href="/cv">Түйіндеме</Link>
+                    <Link href="/cv">CV</Link>
                 </li>
                 <li className={styles['menu-item']}>
-                    <Link href="/projects">Жобалар</Link>
+                    <Link href="/projects">Projects</Link>
                 </li>
                 <li className={styles['menu-item']}>
-                    <Link href="/contacts">Контактілер</Link>
+                    <Link href="/contacts">Contacts</Link>
                 </li>
             </ul>
         </nav>

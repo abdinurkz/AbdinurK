@@ -9,13 +9,13 @@ export default function Home() {
                 <div className={styles['info']}>
                     <div className={styles['details']}>
                         <h1 className={styles['full-name']}>
-                            Қуатбек Әбдінұр
+                            Kuatbek Abdinur
                         </h1>
                         <h2 className={styles['position']}>
-                            Middle фронтенд әзірлеуші
+                            Middle front-end developer
                         </h2>
                         <p className={styles['description']}>
-                            Идеяларымды жүзеге асыру арқылы әлемді жақсартқым келеді.
+                            I want to improve the world by realizing my ideas.
                         </p>
                     </div>
                     <figure>
