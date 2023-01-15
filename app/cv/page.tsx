@@ -1,7 +1,9 @@
 import styles from './styles.module.scss'
 import { JobCard } from '../../components/JobCard'
+import data from "../../mock/cv.json"
 
 export default function CV() {
+    
     return (
         <main className={styles['page-wrapper']}>
             <section className={styles['page-content']}>
@@ -9,7 +11,9 @@ export default function CV() {
                     <h2 className={styles['cv-subtitle']}>
                         Experience
                     </h2>
-                    <JobCard />
+                    {
+                        data.jobs.map((job) => <JobCard key={job.id} job={job} />)
+                    }
                 </div>
             </section>
         </main>

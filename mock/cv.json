@@ -1,0 +1,54 @@
+{
+    "jobs": [
+        {
+            "id": 2,
+            "position": "Full Stack Engineer",
+            "start_date": "Aug 2020",
+            "end_date": "Jan 2021",
+            "company": "LLP Soft Cloud",
+            "type": "Contract",
+            "description": {
+                "text": "",
+                "responsibilities": [
+                    ""
+                ],
+                "technologies": [
+                    "Node",
+                    "Koa",
+                    "Mongoose",
+                    "MongoDB",
+                    "Telegram API",
+                    "React",
+                    "Redux",
+                    "SCSS",
+                    "Material UI"
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "position": "Full Stack Engineer",
+            "start_date": "May 2020",
+            "end_date": "Aug 2020",
+            "company": "LLP Decode Group",
+            "type": "Internship",
+            "description": {
+                "text": "Development of an educational online platform, a personal brand marathon of a well-known marketer.",
+                "responsibilities": [
+                    "Maintained and developed various page components.",
+                    "Developed business logic, UML modeling together with the team.",
+                    "Implemented an API for creating courses and lessons, as well as an admin part, CRUD operations."
+                ],
+                "technologies": [
+                    "Node",
+                    "Express",
+                    "Sequelize",
+                    "PostgreSQL",
+                    "React",
+                    "Redux",
+                    "SCSS"
+                ]
+            }
+        }
+    ]
+}
