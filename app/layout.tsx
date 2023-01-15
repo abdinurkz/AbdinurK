@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import { Fira_Code } from '@next/font/google'
-import { Header } from '../components/Header'
+import { Header } from 'components/Header'
 
 
 const font = Fira_Code({

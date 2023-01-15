@@ -1,6 +1,6 @@
 import styles from './styles.module.scss'
-import { JobCard } from '../../components/JobCard'
-import data from "../../mock/cv.json"
+import { JobCard } from 'components/JobCard'
+import data from 'mock/cv.json'
 
 export default function CV() {
     
