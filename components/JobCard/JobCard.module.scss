@@ -1,0 +1,42 @@
+.cv-job {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__position {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &__position, &__duration {
+        margin: 0;
+    }
+    &__duration {
+        font-size: 13px;
+    }
+    &__company-name, &__type {
+        margin: 0;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    &__company {
+        display: flex;
+        align-items: center;
+    }
+    &__description {
+        font-size: 13px;
+        white-space: initial;
+        word-wrap: break-word;
+        letter-spacing: normal;
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 10px 0;
+        }
+    }
+}
