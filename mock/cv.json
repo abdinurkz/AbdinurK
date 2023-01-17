@@ -1,27 +1,24 @@
 {
     "jobs": [
-        // {
-        //     "id": 1,
-        //     "position": "Junior Frontend Engineer",
-        //     "start_date": "Oct 2020",
-        //     "end_date": "Sep 2021",
-        //     "company": "GoCrowd Limited",
-        //     "type": "Full-time",
-        //     "description": {
-        //         "text": "While developing an MVP for a young startup like GoCrowd, I had a chance to develop using modern technologies as a Next.js, Ruby on Rails. The project developed rapidly as there were daily calls, discussions. Supported the development of the platform together with the middle developer during which I was responsible for:",
-        //         "responsibilities": [
-        //             "Development of forms for retail investors and business angels.",
-        //             "Implementation of identity verification through KYC.",
-        //             "Development of onboarding for start-ups on the example of Wefunder, Kickstarter."
-        //         ],
-        //         "technologies": [
-        //             "Ruby on Rails",
-        //             "PostgreSQL",
-        //             "React",
-        //             "Next",
-        //             "SCSS"                ]
-        //     }
-        // },
+        {
+            "id": 1,
+            "position": "Junior Frontend Engineer",
+            "start_date": "Jan 2021",
+            "end_date": "present",
+            "company": "Python RPA Ltd.",
+            "type": "Full-time",
+            "description": {
+                "text": "",
+                "responsibilities": [
+                    ""
+                ],
+                "technologies": [
+                    "React",
+                    "Redux Saga",
+                    "Bootstrap",
+                    "SCSS"                ]
+            }
+        },
         {
             "id": 2,
             "position": "Junior Frontend Engineer",
