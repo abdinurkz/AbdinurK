@@ -1,6 +1,31 @@
 {
     "jobs": [
         {
+            "id": 1,
+            "position": "Junior Frontend Engineer",
+            "start_date": "Oct 2020",
+            "end_date": "Sep 2021",
+            "company": "LLP Soft Cloud",
+            "type": "Full time",
+            "description": {
+                "text": "I was involved in the development of a purchasing system for a chain of restaurants Chechil Pub. During the development, several features were made, such as requesting products through the chef, sending notifications via Telegram bot, searching for products, reporting on purchased products, etc. With the help of Wakatime, the time spent on development was actively tracked.",
+                "responsibilities": [
+                    "Implemented an algorithm for requesting products depending on their needs.",
+                    "Invented various options for notifications through Telegram API.",
+                    "Created role based api protection (guards)."
+                ],
+                "technologies": [
+                    "Ruby on Rails",
+                    "PostgreSQL",
+                    "React",
+                    "Next",
+                    "Redux",
+                    "SCSS",
+                    "Material UI"
+                ]
+            }
+        },
+        {
             "id": 2,
             "position": "Junior Full Stack Engineer",
             "start_date": "Aug 2020",
@@ -8,9 +33,11 @@
             "company": "LLP Soft Cloud",
             "type": "Contract",
             "description": {
-                "text": "",
+                "text": "I was involved in the development of a purchasing system for a chain of restaurants Chechil Pub. During the development, several features were made, such as requesting products through the chef, sending notifications via Telegram bot, searching for products, reporting on purchased products, etc. With the help of Wakatime, the time spent on development was actively tracked.",
                 "responsibilities": [
-                    ""
+                    "Implemented an algorithm for requesting products depending on their needs.",
+                    "Invented various options for notifications through Telegram API.",
+                    "Created role based api protection (guards)."
                 ],
                 "technologies": [
                     "Node",
