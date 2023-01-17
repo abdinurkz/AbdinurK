@@ -1,32 +1,51 @@
 {
     "jobs": [
+        // {
+        //     "id": 1,
+        //     "position": "Junior Frontend Engineer",
+        //     "start_date": "Oct 2020",
+        //     "end_date": "Sep 2021",
+        //     "company": "GoCrowd Limited",
+        //     "type": "Full-time",
+        //     "description": {
+        //         "text": "While developing an MVP for a young startup like GoCrowd, I had a chance to develop using modern technologies as a Next.js, Ruby on Rails. The project developed rapidly as there were daily calls, discussions. Supported the development of the platform together with the middle developer during which I was responsible for:",
+        //         "responsibilities": [
+        //             "Development of forms for retail investors and business angels.",
+        //             "Implementation of identity verification through KYC.",
+        //             "Development of onboarding for start-ups on the example of Wefunder, Kickstarter."
+        //         ],
+        //         "technologies": [
+        //             "Ruby on Rails",
+        //             "PostgreSQL",
+        //             "React",
+        //             "Next",
+        //             "SCSS"                ]
+        //     }
+        // },
         {
-            "id": 1,
+            "id": 2,
             "position": "Junior Frontend Engineer",
             "start_date": "Oct 2020",
             "end_date": "Sep 2021",
-            "company": "LLP Soft Cloud",
-            "type": "Full time",
+            "company": "GoCrowd Limited",
+            "type": "Full-time",
             "description": {
-                "text": "I was involved in the development of a purchasing system for a chain of restaurants Chechil Pub. During the development, several features were made, such as requesting products through the chef, sending notifications via Telegram bot, searching for products, reporting on purchased products, etc. With the help of Wakatime, the time spent on development was actively tracked.",
+                "text": "While developing an MVP for a young startup like GoCrowd, I had a chance to develop using modern technologies as a Next.js, Ruby on Rails. The project developed rapidly as there were daily calls, discussions. Supported the development of the platform together with the middle developer during which I was responsible for:",
                 "responsibilities": [
-                    "Implemented an algorithm for requesting products depending on their needs.",
-                    "Invented various options for notifications through Telegram API.",
-                    "Created role based api protection (guards)."
+                    "Development of forms for retail investors and business angels.",
+                    "Implementation of identity verification through KYC.",
+                    "Development of onboarding for start-ups on the example of Wefunder, Kickstarter."
                 ],
                 "technologies": [
                     "Ruby on Rails",
                     "PostgreSQL",
                     "React",
                     "Next",
-                    "Redux",
-                    "SCSS",
-                    "Material UI"
-                ]
+                    "SCSS"                ]
             }
         },
         {
-            "id": 2,
+            "id": 3,
             "position": "Junior Full Stack Engineer",
             "start_date": "Aug 2020",
             "end_date": "Jan 2021",
@@ -53,7 +72,7 @@
             }
         },
         {
-            "id": 3,
+            "id": 4,
             "position": "Intern Full Stack Engineer",
             "start_date": "May 2020",
             "end_date": "Aug 2020",
