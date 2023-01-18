@@ -5,18 +5,26 @@
             "position": "Middle Frontend Engineer",
             "start_date": "May 2022",
             "end_date": "present",
+            "duration": "8 months",
             "company": "LLP Prime Source",
             "type": "Full-time",
             "description": {
-                "text": "",
+                "text": "Becoming a middle developer worked on a Kino.kz from Halyk bank. Thanks to well-coordinated teamwork, we completed the redesign of the mobile version of the project. Since the project itself was a microservice, I also participated in the development of widgets(kino/partners), email templates, admin parts.",
                 "responsibilities": [
-                    
+                    "Redesign of the mobile version of the project developed from scratch.",
+                    "Successfully implemented OTP authorization.",
+                    "Improved analytics with Google Tag Manager.",
+                    "Redesign of the email template has been improved.",
+                    "Refactored the admin part of the project by adding Redux Toolkit."
                 ],
                 "technologies": [
                     "React",
+                    "Typescript",
+                    "Eslint",
                     "Next",
                     "i18n",
                     "Redux Toolkit",
+                    "Sendsay",
                     "SCSS"              
                 ]
             }
@@ -26,6 +34,7 @@
             "position": "Junior Frontend Engineer",
             "start_date": "Jan 2021",
             "end_date": "March 2022",
+            "duration": "1 year 4 months",
             "company": "Python RPA Ltd.",
             "type": "Full-time",
             "description": {
@@ -47,6 +56,7 @@
             "position": "Junior Frontend Engineer",
             "start_date": "Oct 2020",
             "end_date": "Sep 2021",
+            "duration": "9 months",
             "company": "GoCrowd Limited",
             "type": "Full-time",
             "description": {
@@ -69,6 +79,7 @@
             "position": "Junior Full Stack Engineer",
             "start_date": "Aug 2020",
             "end_date": "Jan 2021",
+            "duration": "5 months",
             "company": "LLP Soft Cloud",
             "type": "Contract",
             "description": {
@@ -96,6 +107,7 @@
             "position": "Intern Full Stack Engineer",
             "start_date": "May 2020",
             "end_date": "Aug 2020",
+            "duration": "3 months",
             "company": "LLP Decode Group",
             "type": "Internship",
             "description": {

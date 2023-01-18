@@ -7,6 +7,7 @@ interface JobCardProps {
         position: string
         start_date: string
         end_date: string
+        duration: string
         company: string
         type: string
         description: {
@@ -22,7 +23,7 @@ const JobCard: FC<JobCardProps> = ({ job }) => {
             <div className={styles['cv-job__info']}>
                 <h3 className={styles['cv-job__position']}>{ job.position }</h3>
                 <p className={styles['cv-job__duration']}>
-                    <time dateTime="2020-05-01">{ job.start_date }</time> - <time dateTime="2020-08-31">{ job.end_date }</time>
+                    <time dateTime="2020-05-01">{ job.start_date }</time> - <time dateTime="2020-08-31">{ job.end_date }&nbsp;·&nbsp;{ job.duration }</time>
                 </p>
             </div>
             <div className={styles['cv-job__company']}>

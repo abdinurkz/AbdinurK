@@ -15,7 +15,18 @@ export default function Home() {
                             Middle front-end developer
                         </h2>
                         <p className={styles['description']}>
-                            I want to improve the world by realizing my ideas.
+                            Front-end developer with 2.5 years of commercial experience. Basic skills:
+                        </p>
+                        <ul>
+                            <li>HTML, CSS, SASS, ES6+.</li>
+                            <li>React, Next, Typescript, Redux Toolkit / Query, Antd design, Eslint, Webpack.</li>
+                            <li>I am able to complete tasks on time.</li>
+                            <li>Easy to adapt and learn.</li>
+                            <li>Ability to read code, also writing understandable code using DRY, KISS, SOLID programming principles.</li>
+                            <li>Communication and tolerance.</li>
+                        </ul>
+                        <p>
+                            I will be glad to cooperate! Also open to new suggestions.
                         </p>
                     </div>
                     <figure>

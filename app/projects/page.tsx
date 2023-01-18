@@ -5,7 +5,7 @@ export default function Projects() {
     return (
         <main className={styles['page-wrapper']}>
             <section className={styles['page-content']}>
-                Жобалар
+                Coming soon...
             </section>
         </main>
     ) 
