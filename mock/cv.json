@@ -2,15 +2,38 @@
     "jobs": [
         {
             "id": 1,
-            "position": "Junior Frontend Engineer",
-            "start_date": "Jan 2021",
+            "position": "Middle Frontend Engineer",
+            "start_date": "May 2022",
             "end_date": "present",
-            "company": "Python RPA Ltd.",
+            "company": "LLP Prime Source",
             "type": "Full-time",
             "description": {
                 "text": "",
                 "responsibilities": [
-                    ""
+                    
+                ],
+                "technologies": [
+                    "React",
+                    "Next",
+                    "i18n",
+                    "Redux Toolkit",
+                    "SCSS"              
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "position": "Junior Frontend Engineer",
+            "start_date": "Jan 2021",
+            "end_date": "March 2022",
+            "company": "Python RPA Ltd.",
+            "type": "Full-time",
+            "description": {
+                "text": "Python RPA is a company that empowers you to automate repetitive tasks with no coding needed. Working in this company, he was engaged in the implementation of business processes for the second-tier bank 'Al-Hilal', such as: establishing a new client (through a contact center, branch), setting thresholds for transfers, issuing a debit card, etc.",
+                "responsibilities": [
+                    "Сreation of a BPM platform for the implementation of business processes.",
+                    "Implementing dynamic forms using the library react-hook-form.",
+                    "Using a websocket, check the data for the trustworthiness of the client."
                 ],
                 "technologies": [
                     "React",
@@ -20,7 +43,7 @@
             }
         },
         {
-            "id": 2,
+            "id": 3,
             "position": "Junior Frontend Engineer",
             "start_date": "Oct 2020",
             "end_date": "Sep 2021",
@@ -42,7 +65,7 @@
             }
         },
         {
-            "id": 3,
+            "id": 4,
             "position": "Junior Full Stack Engineer",
             "start_date": "Aug 2020",
             "end_date": "Jan 2021",
@@ -69,7 +92,7 @@
             }
         },
         {
-            "id": 4,
+            "id": 5,
             "position": "Intern Full Stack Engineer",
             "start_date": "May 2020",
             "end_date": "Aug 2020",
