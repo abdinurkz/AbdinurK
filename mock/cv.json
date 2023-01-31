@@ -1,4 +1,21 @@
 {
+    "languages": [
+        {
+            "id": 1,
+            "text": "English",
+            "level": "Pre-Intermediate (A2)"
+        }, 
+        {
+            "id": 2,
+            "text": "Russian",
+            "level": "fluency"
+        },
+        {
+            "id": 3,
+            "text": "Kazakh",
+            "level": "native"
+        }
+    ],
     "jobs": [
         {
             "id": 1,
