@@ -1,5 +1,5 @@
 import styles from './styles.module.scss'
-import Up from 'components/animations/motions/Up'
+import Up from 'animations/motions/Up'
 import Image from 'next/image'
 
 
