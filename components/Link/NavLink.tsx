@@ -4,8 +4,8 @@ import { useSelectedLayoutSegment } from 'next/navigation'
 
 
 export const NavLink = ({
-    slug,
-    children,
+  slug,
+  children,
 }: {
     slug: string,
     children: React.ReactNode,
@@ -18,7 +18,7 @@ export const NavLink = ({
       href={`/blog/${slug}`}
       style={{ fontWeight: isActive ? 'bold' : 'normal' }}
     >
-        {children}
+      {children}
     </Link>
   )
 }
