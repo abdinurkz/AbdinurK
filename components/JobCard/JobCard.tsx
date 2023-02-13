@@ -2,20 +2,20 @@ import { FC } from 'react'
 import styles from './JobCard.module.scss'
 
 interface JobCardProps {
-    job: {
-        id: number
-        position: string
-        start_date: string
-        end_date: string
-        duration: string
-        company: string
-        type: string
-        description: {
-            text: string
-            responsibilities: Array<string>
-            technologies: Array<string>
-        }
+  job: {
+    id: number
+    position: string
+    start_date: string
+    end_date: string
+    duration: string
+    company: string
+    type: string
+    description: {
+      text: string
+      responsibilities: Array<string>
+      technologies: Array<string>
     }
+  }
 }
 const JobCard: FC<JobCardProps> = ({ job }) => {
   return (
