@@ -10,6 +10,7 @@
     padding-bottom: 4rem;
 
     &-list {
+        position: relative;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -30,9 +31,15 @@
             font-weight: 400;
             line-height: 24px;
         }
-        &:hover {
-            background-color: rgb(229 231 235);
-            border-radius: 0.5rem;
-        }
+    }
+
+    &-motion {
+        position: absolute;
+        top: 0;
+        height: 40px;
+        border-radius: 0.5rem;
+        z-index: -1;
+        background-color: rgb(229 231 235);
     }
 }
+

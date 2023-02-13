@@ -9,42 +9,62 @@ import { motion } from 'framer-motion'
 const navItems = {
   '/': {
     name: 'Main',
-    x: 0,
+    x: 10,
     y: 0,
-    w: '64px',
+    w: '57.6px',
   },
   '/about': {
     name: 'About',
-    x: 64,
-    y: 35,
-    w: '65px',
+    x: 77.6,
+    y: 0,
+    w: '66px',
   },
   '/cv': {
     name: 'CV',
-    x: 127,
-    y: 69,
-    w: '56px',
+    x: 153.6,
+    y: 0,
+    w: '40.8px',
   },
   '/projects': {
     name: 'Projects',
-    x: 182,
-    y: 104,
-    w: '100px',
+    x: 204.2,
+    y: 0,
+    w: '91.2px',
   },
   '/contacts': {
     name: 'Contacts',
-    x: 182,
-    y: 104,
-    w: '100px',
+    x: 305.4,
+    y: 0,
+    w: '91.2px',
   },
-};
-
-
+}
 export const Header = () => {
-  let pathname = usePathname()
+  let pathname = usePathname() as string
   return (
     <nav className={styles['menu']}>
       <ul className={styles['menu-list']}>
+        {pathname && navItems[pathname] && (
+          <div className="hidden md:block">
+            <motion.div
+              className={styles['menu-motion']}
+              layoutId="nav"
+              initial={{ 
+                opacity: 0, 
+                x: navItems[pathname].x 
+              }}
+              animate={{
+                opacity: 1,
+                x: navItems[pathname].x,
+                width: navItems[pathname].w,
+              }}
+              transition={{
+                type: 'spring',
+                stiffness: 350,
+                damping: 30,
+              }}
+            />
+          </div>
+        )}
         {Object.entries(navItems).map(([path, { name }]) => {
           const isActive = path === pathname;
           return (
