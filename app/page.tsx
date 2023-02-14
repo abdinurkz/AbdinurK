@@ -11,17 +11,17 @@ export default function Home() {
           <div className={styles['details']}>
             <Up>
               <h1 className={styles['full-name']}>
-                                Kuatbek Abdinur
+                Kuatbek Abdinur
               </h1>
             </Up>
             <Up delay={0.2}>
               <h2 className={styles['position']}>
-                                Middle front-end developer
+                Middle front-end developer
               </h2>
             </Up>
             <Up delay={0.4}>
               <p className={styles['description']}>
-                                Front-end developer with 2.5 years of commercial experience. Basic skills:
+                Front-end developer with 2.5 years of commercial experience. Basic skills:
               </p>
               <ul>
                 <li>HTML, CSS, SASS, ES6+.</li>
@@ -34,7 +34,7 @@ export default function Home() {
             </Up>
             <Up delay={0.6}>
               <p>
-                                I will be glad to cooperate! Also open to new suggestions.
+                I will be glad to cooperate! Also open to new suggestions.
               </p>
             </Up>
           </div>

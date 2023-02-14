@@ -1,11 +1,11 @@
 import { ReactNode } from 'react'
-import { Fira_Code } from '@next/font/google'
+import { IBM_Plex_Mono } from '@next/font/google'
 import { Header } from 'components/Header'
 
 
-const font = Fira_Code({
+const font = IBM_Plex_Mono({
   subsets: ['latin'],
-  display: 'swap',
+  weight: '400'
 })
 
 export default function RootLayout({
