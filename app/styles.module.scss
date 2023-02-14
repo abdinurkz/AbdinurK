@@ -9,7 +9,7 @@
 }
 
 .page-content {
-    padding-left: 12px;
+    padding-left: 10px;
 }
 
 .full-name {
@@ -24,6 +24,10 @@
 .info {
     display: flex;
     justify-content: space-between;
+
+    figure {
+        margin: 0;
+    }
 }
 
 .position {

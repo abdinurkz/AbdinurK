@@ -1,5 +1,5 @@
 export default function Head() {
- return (
+  return (
     <>
       <title>Kuatbek Abdinur - Frontend Developer</title>
       <meta name="description" content="23 y.o. Javascript enthusiast." />

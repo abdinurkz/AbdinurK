@@ -44,7 +44,7 @@ export const Header = () => {
     <nav className={styles['menu']}>
       <ul className={styles['menu-list']}>
         {pathname && navItems[pathname] && (
-          <div className="hidden md:block">
+          <div>
             <motion.div
               className={styles['menu-motion']}
               layoutId="nav"
@@ -71,13 +71,9 @@ export const Header = () => {
             <li className={styles['menu-item']} key={path}>
               <Link
                 href={path}
-                className={clsx(
-                  'transition-all hover:text-neutral-800 dark:hover:text-neutral-200 py-[5px] px-[10px]',
-                  {
-                    'text-neutral-500': !isActive,
-                    'font-bold': isActive,
-                  }
-                )}
+                className={clsx({
+                  'active': isActive,
+                })}
               >
                 {name}
               </Link>

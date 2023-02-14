@@ -24,12 +24,20 @@
         align-items: center;
         justify-content: center;
         a {
-            color: rgb(75 85 99);
             text-decoration: none;
+            color: rgb(75 85 99);
             padding: 8px 12px;
             font-size: 14px;
-            font-weight: bold;
+            font-weight: 400;
             line-height: 24px;
+            &:active {
+                font-weight: 700;
+                color: #000;
+            }
+            &:hover {
+                font-weight: 700;
+                color: #000;
+            }
         }
     }
 
@@ -42,4 +50,3 @@
         background-color: rgb(229 231 235);
     }
 }
-

@@ -4,8 +4,8 @@ import { Header } from 'components/Header'
 
 
 const font = IBM_Plex_Mono({
-  subsets: ['latin'],
-  weight: '400'
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '600', '700']
 })
 
 export default function RootLayout({
