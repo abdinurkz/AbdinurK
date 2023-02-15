@@ -39,7 +39,7 @@ const navItems = {
   },
 }
 export const Header = () => {
-  let pathname = usePathname() as string
+  let pathname = usePathname()
   return (
     <nav className={styles['menu']}>
       <ul className={styles['menu-list']}>
