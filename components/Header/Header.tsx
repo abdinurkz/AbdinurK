@@ -30,13 +30,7 @@ const navItems = {
     x: 204.2,
     y: 0,
     w: '91.2px',
-  },
-  '/contacts': {
-    name: 'Contacts',
-    x: 305.4,
-    y: 0,
-    w: '91.2px',
-  },
+  }
 }
 export const Header = () => {
   let pathname = usePathname()
@@ -80,6 +74,9 @@ export const Header = () => {
             </li>
           );
         })}
+      </ul>
+      <ul>
+        Theme
       </ul>
     </nav>
   )
