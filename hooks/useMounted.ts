@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 
-function useMounted() {
+export function useMounted() {
   const [mounted, setMounted] = useState(false)
   useEffect(() => {
     setMounted(true)
