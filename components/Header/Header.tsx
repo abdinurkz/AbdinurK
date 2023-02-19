@@ -75,9 +75,6 @@ export const Header = () => {
           );
         })}
       </ul>
-      <ul>
-        Theme
-      </ul>
     </nav>
   )
 }

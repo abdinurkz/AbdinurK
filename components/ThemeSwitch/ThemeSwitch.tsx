@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react'
 import { SunIcon, MoonIcon } from 'components/Icons'
-import { useMounted } from 'hooks/useMounted'
+import { useMounted } from 'utils/hooks/useMounted'
 import { useTheme } from 'next-themes'
 import { Select } from 'components/Select'
 import cn from 'clsx'
