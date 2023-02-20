@@ -1,14 +1,13 @@
-import styles from './styles.module.scss'
-import { JobCard } from 'components/JobCard'
 import data from 'content/cv.json'
+import { JobCard } from 'components/JobCard'
 
 
 export default function CV() {
   return (
-    <main className={styles['page-wrapper']}>
-      <section className={styles['page-content']}>
-        <div className="cv-page">
-          <h2 className={styles['cv-subtitle']}>
+    <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
+      <section className="pl-[20px]">
+        <div className="w-full">
+          <h2 className="font-normal text-lg mt-0 mb-4 border-b border-black">
             Language
           </h2>
           {
@@ -18,7 +17,7 @@ export default function CV() {
               </article>
             ))
           }
-          <h2 className={styles['cv-subtitle']}>
+          <h2 className="font-normal text-lg mt-0 mb-4 border-b border-black">
             Experience
           </h2>
           {

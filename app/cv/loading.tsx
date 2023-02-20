@@ -1,7 +1,7 @@
 export default function Loading() {
   return (
     <div>
-      Жүктелуде...
+      Loading...
     </div>
   )
 }
