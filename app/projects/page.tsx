@@ -1,10 +1,7 @@
-import styles from './styles.module.scss'
-
-
 export default function Projects() {
   return (
-    <main className={styles['page-wrapper']}>
-      <section className={styles['page-content']}>
+    <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
+      <section className="pl-[20px]">
         Coming soon...
       </section>
     </main>
