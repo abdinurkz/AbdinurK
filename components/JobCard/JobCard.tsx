@@ -27,8 +27,7 @@ const JobCard: FC<JobCardProps> = ({ job }) => {
         <p className="m-0 text-[13px]">
           <time dateTime="2020-05-01">
             { job.start_date }
-          </time> - 
-          <time dateTime="2020-08-31">
+          </time> - <time dateTime="2020-08-31">
             { job.end_date }&nbsp;·&nbsp;{ job.duration }
           </time>
         </p>
