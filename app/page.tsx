@@ -1,29 +1,28 @@
-import styles from './styles.module.scss'
-import Up from 'utils/animations/motions/Up'
 import Image from 'next/image'
+import Up from 'utils/animations/motions/Up'
 
 
 export default function Home() {
   return (
-    <main className={styles['page-wrapper']}>
-      <section className={styles['page-content']}>
-        <div className={styles['info']}>
-          <div className={styles['details']}>
+    <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
+      <section className="pl-[10px]">
+        <div className="flex justify-between">
+          <div className="text-[14px]">
             <Up>
-              <h1 className={styles['full-name']}>
+              <h1 className="text-5xl font-bold tracking-tight mt-0 mb-1">
                 Kuatbek Abdinur
               </h1>
             </Up>
             <Up delay={0.2}>
-              <h2 className={styles['position']}>
+              <h2 className="mt-0 mb-4 text-base font-normal text-[#333]">
                 Middle front-end developer
               </h2>
             </Up>
             <Up delay={0.4}>
-              <p className={styles['description']}>
+              <p className="text-[14px] mb-5 leading-6">
                 Front-end developer with 2.5 years of commercial experience. Basic skills:
               </p>
-              <ul>
+              <ul className="list-disc pl-0 m-0">
                 <li>HTML, CSS, SASS, ES6+.</li>
                 <li>React, Next, Typescript, Redux Toolkit / Query, Antd design, Eslint, Webpack.</li>
                 <li>I am able to complete tasks on time.</li>
