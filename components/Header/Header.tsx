@@ -35,8 +35,8 @@ const navItems = {
 export const Header = () => {
   let pathname = usePathname()
   return (
-    <nav className={styles['menu']}>
-      <ul className={styles['menu-list']}>
+    <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-8 pb-16">
+      <ul className="relative m-0 p-0 list-none flex items-center gap-2.5">
         {pathname && navItems[pathname] && (
           <div>
             <motion.div
@@ -62,7 +62,10 @@ export const Header = () => {
         {Object.entries(navItems).map(([path, { name }]) => {
           const isActive = path === pathname;
           return (
-            <li className={styles['menu-item']} key={path}>
+            <li 
+              key={path}
+              className={styles['menu-item']}
+            >
               <Link
                 href={path}
                 className={clsx({
