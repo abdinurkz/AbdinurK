@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import styles from './Header.module.scss'
 import clsx from 'clsx';
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
@@ -40,7 +39,7 @@ export const Header = () => {
         {pathname && navItems[pathname] && (
           <div>
             <motion.div
-              className={styles['menu-motion']}
+              className="absolute top-0 h-10 rounded-lg z-[-1] bg-gray-200"
               layoutId="nav"
               initial={{ 
                 opacity: 0, 
@@ -64,13 +63,25 @@ export const Header = () => {
           return (
             <li 
               key={path}
-              className={styles['menu-item']}
+              className="flex items-center justify-center"
             >
               <Link
                 href={path}
                 className={clsx({
                   'active': isActive,
-                })}
+                }, 
+                'no-underline', 
+                'text-gray-600', 
+                'font-normal', 
+                'px-3', 
+                'py-2', 
+                'text-[14px]', 
+                'leading-6',
+                'active: font-bold',
+                'active: text-black',
+                'hover: font-bold',
+                'hover: text-black',
+                )}
               >
                 {name}
               </Link>

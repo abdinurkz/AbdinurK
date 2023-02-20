@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import styles from './JobCard.module.scss'
+
 
 interface JobCardProps {
   job: {
@@ -19,30 +19,42 @@ interface JobCardProps {
 }
 const JobCard: FC<JobCardProps> = ({ job }) => {
   return (
-    <article className={styles['cv-job']}>
-      <div className={styles['cv-job__info']}>
-        <h3 className={styles['cv-job__position']}>{ job.position }</h3>
-        <p className={styles['cv-job__duration']}>
-          <time dateTime="2020-05-01">{ job.start_date }</time> - <time dateTime="2020-08-31">{ job.end_date }&nbsp;·&nbsp;{ job.duration }</time>
+    <article className="relative flex flex-col gap-1 mb-5">
+      <div className="flex justify-between items-center">
+        <h3 className="text-base font-semibold m-0">
+          { job.position }
+        </h3>
+        <p className="m-0 text-[13px]">
+          <time dateTime="2020-05-01">
+            { job.start_date }
+          </time> - 
+          <time dateTime="2020-08-31">
+            { job.end_date }&nbsp;·&nbsp;{ job.duration }
+          </time>
         </p>
       </div>
-      <div className={styles['cv-job__company']}>
-        <h4 className={styles['cv-job__company-name']}>
+      <div className="flex items-center">
+        <h4 className="m-0 font-light text-[14px]">
           { job.company }
         </h4>&nbsp;·&nbsp;
-        <p className={styles['cv-job__type']}>{ job.type }</p>
+        <p className="m-0 font-light text-[14px]">
+          { job.type }
+        </p>
       </div>
-      <div className={styles['cv-job__description']}>
+      <div className="text-[13px] break-words">
         { job.description.text }
-        <ul>
+        <ul className="list-none pl-0 my-[10px]">
           { job.description.responsibilities.map((r, index) => (
             <li key={index}>
-                            - { r }
+              - { r }
             </li>
           )) }
         </ul>
                             
-        <b>Technologies used:</b> {job.description.technologies.map((s) => s).join(', ')}.
+        <b className="text-[13px]">
+          Technologies used:
+        </b> 
+        {job.description.technologies.map((s) => s).join(', ')}.
       </div>
     </article>
   )
