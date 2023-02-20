@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
 import { IBM_Plex_Mono } from '@next/font/google'
 import { Header } from 'components/Header'
+import './globals.css'
 
 
 const font = IBM_Plex_Mono({
