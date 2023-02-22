@@ -1,52 +1,35 @@
-import type { ReactElement } from 'react'
+import { ReactNode, useCallback } from 'react'
 import { SunIcon, MoonIcon } from 'components/Icons'
 import { useMounted } from 'utils/hooks/useMounted'
 import { useTheme } from 'next-themes'
-import { Select } from 'components/Select'
 import cn from 'clsx'
 
 
 type ThemeSwitchProps = {
-    lite?: boolean
-    className?: string
-  }
-  
-const OPTIONS = [
-  { key: 'light', name: 'Light' },
-  { key: 'dark', name: 'Dark' },
-  { key: 'system', name: 'System' }
-]
-
-
+  lite?: boolean
+  className?: string
+}
 export function ThemeSwitch({
   lite,
   className
-}: ThemeSwitchProps): ReactElement {
-  const { setTheme, resolvedTheme, theme = '' } = useTheme()
+}: ThemeSwitchProps): ReactNode {
   const mounted = useMounted()
+  const { setTheme, resolvedTheme } = useTheme()
   const IconToUse = mounted && resolvedTheme === 'dark' ? MoonIcon : SunIcon
+  const handleChangeTheme = useCallback(() => {
+    setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
+  }, [resolvedTheme, setTheme])
   return (
-    <div className={cn('nx-relative', className)}>
-      <Select
-        title="Change theme"
-        className="nx-w-full"
-        options={OPTIONS}
-        onChange={option => {
-          setTheme(option.key)
-        }}
-        selected={{
-          key: theme,
-          name: (
-            <div className="nx-flex nx-items-center nx-gap-2 nx-capitalize">
-              <IconToUse />
-              <span className={lite ? 'md:nx-hidden' : ''}>
-                {mounted ? theme : 'light'}
-              </span>
-            </div>
-          )
-        }}
-      />
-    </div>
+    <button
+      type="button"
+      aria-label="Toggle Dark Mode"
+      className="h-10 w-10 mr-2.5 flex items-center justify-center rounded hover:ring-2 ring-gray-300 transition-all"
+      onClick={handleChangeTheme}
+    >
+      {mounted && (
+        <IconToUse />
+      )}
+    </button>
   )
 }
 

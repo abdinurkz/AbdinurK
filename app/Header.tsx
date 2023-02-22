@@ -3,6 +3,7 @@ import Link from 'next/link'
 import clsx from 'clsx';
 import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
+import { ThemeSwitch } from 'components/ThemeSwitch';
 
 
 const navItems = {
@@ -89,6 +90,9 @@ export const Header = () => {
           );
         })}
       </ul>
+      <ThemeSwitch 
+        lite={false}
+      />
     </nav>
   )
 }

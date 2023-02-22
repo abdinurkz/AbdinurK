@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 import { IBM_Plex_Mono } from '@next/font/google'
+import { ThemeContext } from 'components/contexts/ThemeContext'
 import { Header } from './Header'
 import './globals.css'
 
@@ -19,8 +20,10 @@ export default function RootLayout({
     <html lang='en' className={font.className}>
       <head />
       <body>
-        <Header />
-        {children}
+        <ThemeContext>
+          <Header />
+          {children}
+        </ThemeContext>
       </body>
     </html>
   )
