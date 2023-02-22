@@ -1,9 +1,9 @@
 'use client'
+import clsx from 'clsx'
 import Link from 'next/link'
-import clsx from 'clsx';
-import { usePathname } from 'next/navigation'
 import { motion } from 'framer-motion'
-import { ThemeSwitch } from 'components/ThemeSwitch';
+import { usePathname } from 'next/navigation'
+import { ThemeSwitch } from 'components/ThemeSwitch'
 
 
 const navItems = {
@@ -33,14 +33,14 @@ const navItems = {
   }
 }
 export const Header = () => {
-  let pathname = usePathname()
+  const pathname = usePathname()
   return (
     <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-8 pb-16">
       <ul className="relative m-0 p-0 list-none flex items-center gap-2.5">
         {pathname && navItems[pathname] && (
           <div>
             <motion.div
-              className="absolute top-0 h-10 rounded-lg z-[-1] bg-gray-200"
+              className="absolute top-0 h-10 rounded-lg z-[-1] bg-gray-300 dark:bg-none"
               layoutId="nav"
               initial={{ 
                 opacity: 0, 
@@ -72,16 +72,11 @@ export const Header = () => {
                   'active': isActive,
                 }, 
                 'no-underline', 
-                'text-gray-600', 
                 'font-normal', 
                 'px-3', 
                 'py-2', 
                 'text-[14px]', 
                 'leading-6',
-                'active: font-bold',
-                'active: text-black',
-                'hover: font-bold',
-                'hover: text-black',
                 )}
               >
                 {name}

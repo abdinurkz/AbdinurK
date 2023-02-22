@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
       <section className="pl-[10px]">
-        <div className="flex justify-between">
+        <div className="flex flex-col-reverse justify-between sm:flex-row">
           <div className="text-[14px]">
             <Up>
-              <h1 className="text-5xl font-bold tracking-tight mt-0 mb-1">
+              <h1 className="text-3xl md:text-5xl font-bold tracking-tight mt-0 mb-1">
                 Kuatbek Abdinur
               </h1>
             </Up>
             <Up delay={0.2}>
-              <h2 className="mt-0 mb-4 text-base font-normal text-[#333]">
+              <h2 className="mt-0 mb-4 text-base font-normal">
                 Middle front-end developer
               </h2>
             </Up>
@@ -42,6 +42,7 @@ export default function Home() {
               <Image 
                 src="/avatar.png" 
                 alt="avatar" 
+                priority
                 width={116} 
                 height={116}
               />

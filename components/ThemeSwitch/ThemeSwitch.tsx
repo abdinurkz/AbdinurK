@@ -1,8 +1,7 @@
-import { ReactNode, useCallback } from 'react'
+import { ReactElement, useCallback } from 'react'
 import { SunIcon, MoonIcon } from 'components/Icons'
 import { useMounted } from 'utils/hooks/useMounted'
 import { useTheme } from 'next-themes'
-import cn from 'clsx'
 
 
 type ThemeSwitchProps = {
@@ -12,7 +11,7 @@ type ThemeSwitchProps = {
 export function ThemeSwitch({
   lite,
   className
-}: ThemeSwitchProps): ReactNode {
+}: ThemeSwitchProps): ReactElement {
   const mounted = useMounted()
   const { setTheme, resolvedTheme } = useTheme()
   const IconToUse = mounted && resolvedTheme === 'dark' ? MoonIcon : SunIcon
