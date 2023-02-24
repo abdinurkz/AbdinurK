@@ -1,6 +1,7 @@
 import { ReactNode } from 'react'
 import { IBM_Plex_Mono } from '@next/font/google'
 import { ThemeContext } from 'components/contexts/ThemeContext'
+import { VercelAnalytics } from 'components/analytics/VercelAnalytics'
 import { Header } from './Header'
 import './globals.css'
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Header />
           {children}
         </ThemeContext>
+        <VercelAnalytics />
       </body>
     </html>
   )
