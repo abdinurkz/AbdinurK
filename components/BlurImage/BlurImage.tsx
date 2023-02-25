@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
+import clsx from 'clsx'
 
 
 interface IBlurImage {
@@ -8,6 +9,7 @@ interface IBlurImage {
   alt: string
   width: number
   height: number
+  className: string
   priority?: boolean
 }
 export function BlurImage(props: IBlurImage) {
@@ -20,10 +22,8 @@ export function BlurImage(props: IBlurImage) {
         src={props.src}
         width={props.width}
         height={props.height}
-        priority={props.priority}
-        className={`
-          duration-700 ease-in-out group-hover:opacity-75
-          ${isLoading ? 'scale-110 blur-2xl grayscale' : 'scale-100 blur-0 grayscale-0'})`}
+        // priority={props.priority}
+        className={props.className}
         onLoadingComplete={() => setLoading(false)}
       />
     </div>

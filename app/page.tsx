@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image';
 import Up from 'utils/animations/motions/Up'
 import { BlurImage } from 'components/BlurImage'
 
@@ -39,13 +39,14 @@ export default function Home() {
             </Up>
           </div>
           <figure>
-            <Up delay={0.1}>
+            <Up delay={0.1}> 
               <Image 
-                src="/avatar.png" 
                 alt="avatar" 
-                priority
+                src="/avatar.png" 
+                className="rounded-full"
                 width={116} 
                 height={116}
+                priority
               />
             </Up>
           </figure>
