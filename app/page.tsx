@@ -41,7 +41,7 @@ export default function Home() {
             <Up delay={0.1}> 
               <Image 
                 alt="avatar" 
-                src="./avatar.png" 
+                src="/avatar.png" 
                 className="rounded-full"
                 width={116} 
                 height={116}
