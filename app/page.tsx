@@ -1,6 +1,5 @@
 import Image from 'next/legacy/image';
 import Up from 'utils/animations/motions/Up'
-import { BlurImage } from 'components/BlurImage'
 
 
 export default function Home() {
