@@ -11,7 +11,7 @@ import {
 export default function About() {
   return (
     <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
-      <section className="pl-[20px] max-w-[230px] w-full">
+      <section className="px-[20px] w-full gap-3 grid grid-cols-2">
         <a
           rel="noopener noreferrer"
           target="_blank"
