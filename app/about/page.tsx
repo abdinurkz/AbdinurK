@@ -20,7 +20,7 @@ export default function About() {
         >
           <div className="flex items-center">
             <TelegramIcon />
-            <div className="ml-3 text-gray-500">Telegram</div>
+            <div className="ml-3 dark:text-white">Telegram</div>
           </div>
           <ArrowIcon />
         </a>
@@ -32,7 +32,7 @@ export default function About() {
         >
           <div className="flex items-center">
             <GitHubIcon />
-            <div className="ml-3 text-gray-500">Github</div>
+            <div className="ml-3 dark:text-white">Github</div>
           </div>
           <ArrowIcon />
         </a>
@@ -44,7 +44,7 @@ export default function About() {
         >
           <div className="flex items-center">
             <LinkedInIcon />
-            <div className="ml-3 text-gray-500">LinkedIn</div>
+            <div className="ml-3 dark:text-white">LinkedIn</div>
           </div>
           <ArrowIcon />
         </a>
@@ -56,7 +56,7 @@ export default function About() {
         >
           <div className="flex items-center">
             <GmailIcon />
-            <div className="ml-3 text-gray-500">Gmail</div>
+            <div className="ml-3 dark:text-white">Gmail</div>
           </div>
           <ArrowIcon />
         </a>
