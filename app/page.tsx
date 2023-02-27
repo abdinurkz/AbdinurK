@@ -19,8 +19,8 @@ export default function Home() {
               </h2>
             </Up>
             <Up delay={0.4}>
-              <p className="text-[14px] mb-5 leading-6">
-                Front-end developer with 2.5 years of commercial experience. Basic skills:
+              <p className="text-[15px] mb-5 leading-6">
+                Front-end developer with 2.5 years of commercial experience. Skills:
               </p>
               <ul className="list-disc pl-0 m-0">
                 <li>HTML, CSS, SASS, ES6+.</li>

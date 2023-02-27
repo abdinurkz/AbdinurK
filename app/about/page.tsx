@@ -16,7 +16,7 @@ export default function About() {
           rel="noopener noreferrer"
           target="_blank"
           href="https://t.me/abdinur08"
-          className="mb-2 flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
         >
           <div className="flex items-center">
             <TelegramIcon />
@@ -28,7 +28,7 @@ export default function About() {
           rel="noopener noreferrer"
           target="_blank"
           href="https://github.com/AbdinurK"
-          className="mb-2 flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
         >
           <div className="flex items-center">
             <GitHubIcon />
@@ -40,7 +40,7 @@ export default function About() {
           rel="noopener noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/abdinur-kuatbek-80241b190/"
-          className="mb-2 flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
         >
           <div className="flex items-center">
             <LinkedInIcon />
@@ -52,7 +52,7 @@ export default function About() {
           rel="noopener noreferrer"
           target="_blank"
           href="mailto:kuatbekabdinur@gmail.com"
-          className="mb-2 flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
+          className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
         >
           <div className="flex items-center">
             <GmailIcon />
