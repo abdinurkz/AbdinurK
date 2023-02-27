@@ -5,11 +5,11 @@ import Up from 'utils/animations/motions/Up'
 export default function Home() {
   return (
     <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
-      <section className="pl-[10px]">
+      <section className="px-[20px]">
         <div className="flex flex-col-reverse justify-between sm:flex-row">
           <div className="text-[14px]">
             <Up>
-              <h1 className="text-3xl md:text-5xl font-bold tracking-tight mt-0 mb-1">
+              <h1 className="text-3xl md:text-5xl font-bold tracking-tight mt-0 mb-2">
                 Kuatbek Abdinur
               </h1>
             </Up>
@@ -19,7 +19,7 @@ export default function Home() {
               </h2>
             </Up>
             <Up delay={0.4}>
-              <p className="text-[15px] mb-5 leading-6">
+              <p className="text-[15px] mb-3 leading-6">
                 Front-end developer with 2.5 years of commercial experience. Skills:
               </p>
               <ul className="list-disc pl-0 m-0">
@@ -32,7 +32,7 @@ export default function Home() {
               </ul>
             </Up>
             <Up delay={0.6}>
-              <p>
+              <p className='mt-1'>
                 I will be glad to cooperate! Also open to new suggestions.
               </p>
             </Up>
