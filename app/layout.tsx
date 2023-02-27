@@ -18,7 +18,7 @@ export default function RootLayout({
   children: ReactNode
 }) {
   return (
-    <html lang='en' className={font.className}>
+    <html lang='en' className={`${font.className}`}>
       <head />
       <body>
         <ThemeContext>
