@@ -35,7 +35,7 @@ const navItems = {
 export const Header = () => {
   const pathname = usePathname()
   return (
-    <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-8 pb-16">
+    <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-5 pb-16">
       <ul className="relative m-0 p-0 list-none flex items-center gap-2.5">
         {pathname && navItems[pathname] && (
           <div>

@@ -5,7 +5,7 @@ import { JobCard } from 'components/JobCard'
 export default function CV() {
   return (
     <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
-      <section className="pl-[20px]">
+      <section className="px-[20px]">
         <div className="w-full">
           <h2 className="font-normal text-lg mt-0 mb-4 border-b border-black">
             Language

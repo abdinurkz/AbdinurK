@@ -9,18 +9,17 @@ export default function Home() {
         <div className="flex flex-col-reverse justify-between sm:flex-row">
           <div className="text-[14px]">
             <Up>
-              <h1 className="text-3xl md:text-5xl font-bold tracking-tight mt-0 mb-2">
+              <h1 className="text-3xl md:text-left text-center md:text-5xl font-bold tracking-tight mt-0 mb-2">
                 Kuatbek Abdinur
               </h1>
             </Up>
             <Up delay={0.2}>
-              <h2 className="mt-0 mb-4 text-base font-normal">
+              <h2 className="mt-0 md:text-left text-center mb-4 text-lg">
                 Middle front-end developer
               </h2>
             </Up>
-            
           </div>
-          <figure>
+          <figure className='mx-auto'>
             <Up delay={0.1}> 
               <Image 
                 alt="avatar" 
@@ -39,7 +38,7 @@ export default function Home() {
             Redux Toolkit, Pinia, Webpack, Vite, Eslint, Prettier. 
             Also, I have:
           </p>
-          <ul className="list-disc pl-0 m-0">
+          <ul className="pl-[20px] list-[space-counter] m-0 break-normal">
             <li>Ability writing clean, efficient and maintainable code using DRY, KISS, SOLID programming principles.</li>
             <li>Experience of implementing responsive designs that work flawlessly on desktop and mobile devices.</li>
             <li>Strong problem-solving skills and attention to details.</li>
