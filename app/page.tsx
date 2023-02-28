@@ -4,7 +4,7 @@ import Up from 'utils/animations/motions/Up'
 
 export default function Home() {
   return (
-    <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
+    <main className="max-w-2xl w-full flex justify-between items-center mx-auto mb-3">
       <section className="px-[20px]">
         <div className="flex flex-col-reverse justify-between sm:flex-row">
           <div className="text-[14px]">
