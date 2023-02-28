@@ -40,7 +40,7 @@ export const Header = () => {
         {pathname && navItems[pathname] && (
           <div>
             <motion.div
-              className="absolute top-0 h-10 rounded-lg z-[-1] bg-gray-800 dark:bg-[#888888]"
+              className="absolute top-0 h-10 rounded-lg z-[-1] bg-gray-800 dark:bg-[#222222]"
               layoutId="nav"
               initial={{ 
                 opacity: 0, 
@@ -70,13 +70,14 @@ export const Header = () => {
                 href={path}
                 className={clsx({
                   'text-white': isActive,
+                  'dark:text-white': isActive,
                   'font-semibold': isActive
                 }, 
                 'no-underline', 
                 'font-normal', 
                 'px-3', 
                 'py-2', 
-                'text-[14px]', 
+                'text-[14px]',
                 'leading-6',
                 'hover:rounded-lg'
                 )}
