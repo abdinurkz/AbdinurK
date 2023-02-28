@@ -8,3 +8,7 @@
     symbols: "\2014";
     suffix: " ";
 }
+
+body {
+    min-height: 100vh;
+}
