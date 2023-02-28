@@ -18,7 +18,7 @@ export default function Error({
 
   return (
     <div className='flex items-center justify-center'>
-      <p>Oh no, something went wrong... maybe refresh?</p>
+      <p>Oh no, something went wrong on cv page... maybe refresh?</p>
     </div>
   );
 }
