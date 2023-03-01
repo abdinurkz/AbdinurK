@@ -8,12 +8,12 @@
         {
             "id": 2,
             "text": "Russian",
-            "level": "fluency"
+            "level": "Fluency"
         },
         {
             "id": 3,
             "text": "Kazakh",
-            "level": "native"
+            "level": "Native"
         }
     ],
     "jobs": [

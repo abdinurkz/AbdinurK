@@ -7,7 +7,7 @@ export default function CV() {
     <main className="max-w-2xl w-full flex justify-between items-center mx-auto">
       <section className="px-[20px]">
         <div className="w-full">
-          <h2 className="font-normal text-lg mt-0 mb-4 border-b border-black">
+          <h2 className="font-normal text-lg mt-0 mb-4 border-b border-black dark:border-white">
             Language
           </h2>
           {
@@ -17,7 +17,7 @@ export default function CV() {
               </article>
             ))
           }
-          <h2 className="font-normal text-lg mt-0 mb-4 border-b border-black">
+          <h2 className="font-normal text-lg mt-2 mb-4 border-b border-black dark:border-white">
             Experience
           </h2>
           {

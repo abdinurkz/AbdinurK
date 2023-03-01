@@ -19,12 +19,12 @@ interface JobCardProps {
 }
 const JobCard: FC<JobCardProps> = ({ job }) => {
   return (
-    <article className="relative flex flex-col gap-1 mb-5">
-      <div className="flex justify-between items-center">
-        <h3 className="text-base font-semibold m-0">
+    <article className="relative flex flex-col gap-1 mb-6">
+      <div className="flex flex-col justify-between items-center md:flex-row">
+        <h3 className="text-base font-semibold m-0 w-full">
           { job.position }
         </h3>
-        <p className="m-0 text-[13px]">
+        <p className="m-0 text-[13px] w-full md:text-right">
           <time dateTime="2020-05-01">
             { job.start_date }
           </time> - <time dateTime="2020-08-31">
