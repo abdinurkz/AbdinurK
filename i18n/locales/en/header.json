@@ -1,4 +1,6 @@
 {
     "main": "Main",
-    "cv": "CV"
+    "cv": "CV",
+    "projects": "Projects",
+    "about": "About"
 }
