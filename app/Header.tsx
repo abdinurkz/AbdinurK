@@ -13,24 +13,24 @@ const navItems = {
     y: 0,
     w: '57.6px',
   },
-  '/about': {
-    name: 'About',
-    x: 77.6,
-    y: 0,
-    w: '66px',
-  },
   '/cv': {
     name: 'CV',
-    x: 153.6,
+    x: 77.6,
     y: 0,
     w: '40.8px',
   },
   '/projects': {
     name: 'Projects',
-    x: 204.2,
+    x: 128.4,
     y: 0,
     w: '91.2px',
-  }
+  },
+  '/about': {
+    name: 'About',
+    x: 229.6,
+    y: 0,
+    w: '66px',
+  },
 }
 export const Header = () => {
   const pathname = usePathname()
