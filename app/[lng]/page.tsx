@@ -3,6 +3,7 @@ import { useTranslation } from 'i18n'
 import Up from 'utils/animations/motions/Up'
 import { languages, fallbackLng } from 'i18n/settings'
 import { Trans } from 'react-i18next/TransWithoutContext'
+import avatar from './avatar.png'
 
 
 export default async function Home({ params: { lng } }: {
@@ -34,7 +35,7 @@ export default async function Home({ params: { lng } }: {
             <Up delay={0.1}> 
               <Image 
                 alt="avatar" 
-                src="/avatar.png" 
+                src={avatar} 
                 className="rounded-full"
                 width={116} 
                 height={116}
@@ -45,17 +46,15 @@ export default async function Home({ params: { lng } }: {
         </div>
         <Up delay={0.4}>
           <p className="mb-3">
-            Front-end developer with 2.5 years of commercial experience.Knowledge: React.js, Vue.js, Next.js, Typescript, TailwindCSS,
-            Redux Toolkit, Pinia, Webpack, Vite, Eslint, Prettier. 
-            Also, I have:
+            { t('info.intro') }  
           </p>
           <ul className="pl-[20px] list-[space-counter] m-0 break-normal">
-            <li>Ability writing clean, efficient and maintainable code using DRY, KISS, SOLID programming principles.</li>
-            <li>Experience of implementing responsive designs that work flawlessly on desktop and mobile devices.</li>
-            <li>Strong problem-solving skills and attention to details.</li>
+            <li>{ t('info.abilities.first') }</li>
+            <li>{ t('info.abilities.second') }</li>
+            <li>{ t('info.abilities.third') }</li>
           </ul>
           <p className='mt-3'>
-            I will be glad to cooperate and open to new suggestions!
+            { t('info.last') }  
           </p>
         </Up>
       </section>
