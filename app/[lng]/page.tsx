@@ -26,7 +26,7 @@ export default async function Home({ params: { lng } }: {
             </Up>
             <Up delay={0.2}>
               <h2 className="mt-0 md:text-left text-center mb-4 text-lg">
-                Middle front-end developer
+                { t('position') }
               </h2>
             </Up>
           </div>

@@ -4,45 +4,48 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { ThemeSwitch } from 'components/ThemeSwitch'
+import { useTranslation } from 'i18n/client'
 
 
-const navItems = {
-  '/': {
-    name: 'Main',
-    x: 10,
-    y: 0,
-    w: '57.6px',
-  },
-  '/cv': {
-    name: 'CV',
-    x: 77.6,
-    y: 0,
-    w: '40.8px',
-  },
-  '/projects': {
-    name: 'Projects',
-    x: 128.4,
-    y: 0,
-    w: '91.2px',
-  },
-  '/about': {
-    name: 'About',
-    x: 229.6,
-    y: 0,
-    w: '66px',
-  },
-}
+
 
 export const Header = ({ lng }: {
   lng: string;
 }) => {
   
   const pathname = usePathname()
+  const { t } = useTranslation(lng, 'header')
+  const navItems = {
+    '/': {
+      name: t('main'),
+      x: 10,
+      y: 0,
+      w: '57.6px',
+    },
+    '/cv': {
+      name: t('cv'),
+      x: 77.6,
+      y: 0,
+      w: '40.8px',
+    },
+    '/projects': {
+      name: t('projects'),
+      x: 128.4,
+      y: 0,
+      w: '91.2px',
+    },
+    '/about': {
+      name: t('about'),
+      x: 229.6,
+      y: 0,
+      w: '66px',
+    },
+  }
 
   return (
     <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-5 pb-16">
       <ul className="relative m-0 p-0 list-none flex items-center gap-2.5">
-        {/* {pathname && navItems[pathname.replace('/en', '')] && (
+        {pathname && navItems[pathname.replace('/en', '')] && (
           <div>
             <motion.div
               className="absolute top-0 h-10 rounded-lg z-[-1] bg-gray-800 dark:bg-[#222222]"
@@ -63,7 +66,7 @@ export const Header = ({ lng }: {
               }}
             />
           </div>
-        )} */}
+        )}
         {Object.entries(navItems).map(([path, { name }]) => {
           const isActive = path === pathname.replace('/en', '');
           return (
