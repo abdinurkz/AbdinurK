@@ -32,24 +32,29 @@ const navItems = {
     w: '66px',
   },
 }
-export const Header = () => {
+
+export const Header = ({ lng }: {
+  lng: string;
+}) => {
+  
   const pathname = usePathname()
+
   return (
     <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-5 pb-16">
       <ul className="relative m-0 p-0 list-none flex items-center gap-2.5">
-        {pathname && navItems[pathname] && (
+        {/* {pathname && navItems[pathname.replace('/en', '')] && (
           <div>
             <motion.div
               className="absolute top-0 h-10 rounded-lg z-[-1] bg-gray-800 dark:bg-[#222222]"
               layoutId="nav"
               initial={{ 
                 opacity: 0, 
-                x: navItems[pathname].x 
+                x: navItems[pathname.replace('/en', '')].x 
               }}
               animate={{
                 opacity: 1,
-                x: navItems[pathname].x,
-                width: navItems[pathname].w,
+                x: navItems[pathname.replace('/en', '')].x,
+                width: navItems[pathname.replace('/en', '')].w,
               }}
               transition={{
                 type: 'spring',
@@ -58,16 +63,16 @@ export const Header = () => {
               }}
             />
           </div>
-        )}
+        )} */}
         {Object.entries(navItems).map(([path, { name }]) => {
-          const isActive = path === pathname;
+          const isActive = path === pathname.replace('/en', '');
           return (
             <li 
               key={path}
               className="flex items-center justify-center"
             >
               <Link
-                href={path}
+                href={`/${lng}/${path}`}
                 className={clsx({
                   'text-white': isActive,
                   'dark:text-white': isActive,

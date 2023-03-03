@@ -1,8 +1,19 @@
-import Image from 'next/legacy/image';
+import Image from 'next/legacy/image'
+import { useTranslation } from 'i18n'
 import Up from 'utils/animations/motions/Up'
+import { languages, fallbackLng } from 'i18n/settings'
+import { Trans } from 'react-i18next/TransWithoutContext'
 
 
-export default function Home() {
+export default async function Home({ params: { lng } }: {
+  params: {
+    lng: string
+  }
+}) {
+
+  if (languages.indexOf(lng) < 0) lng = fallbackLng
+  const { t } = await useTranslation(lng)
+
   return (
     <main className="max-w-2xl w-full flex justify-between items-center mx-auto mb-3">
       <section className="px-[20px]">
@@ -10,7 +21,7 @@ export default function Home() {
           <div className="text-[14px]">
             <Up>
               <h1 className="text-3xl md:text-left text-center md:text-5xl font-bold tracking-tight mt-0 mb-2">
-                Kuatbek Abdinur
+                { t('full_name') }
               </h1>
             </Up>
             <Up delay={0.2}>
