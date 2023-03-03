@@ -5,9 +5,15 @@ import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { ThemeSwitch } from 'components/ThemeSwitch'
 import { useTranslation } from 'i18n/client'
+import { Select } from 'components/Select'
+import { useMounted } from 'utils/hooks'
 
 
-
+const OPTIONS = [
+  { key: 'en', name: 'English' },
+  { key: 'ru', name: 'Russian' },
+  { key: 'kk', name: 'Kazakh' }
+]
 
 export const Header = ({ lng }: {
   lng: string;
@@ -41,6 +47,7 @@ export const Header = ({ lng }: {
       w: '66px',
     },
   }
+  const mounted = useMounted()
 
   return (
     <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-5 pb-16">
@@ -96,9 +103,24 @@ export const Header = ({ lng }: {
           );
         })}
       </ul>
-      <ThemeSwitch 
-        lite={false}
-      />
+      <div className='flex items-center'>
+        <Select
+          title="Change language"
+          className="w-full"
+          options={OPTIONS}
+          onChange={option => {
+          // setTheme(option.key)
+          }}
+          selected={{
+            key: lng,
+            name: lng
+          }}
+        />
+        <ThemeSwitch 
+          lite={false}
+          className="ml-3"
+        />
+      </div>
     </nav>
   )
 }
