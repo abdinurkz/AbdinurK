@@ -22,7 +22,7 @@ export function ThemeSwitch({
     <button
       type="button"
       aria-label="Toggle Dark Mode"
-      className="h-10 w-10 mr-2.5 flex items-center justify-center rounded hover:ring-2 ring-gray-300 transition-all"
+      className="h-10 w-10 mr-2.5 flex items-center justify-center rounded-md transition-all flex-1 min-w-[40px] hover:bg-gray-100 hover:text-gray-900"
       onClick={handleChangeTheme}
     >
       {mounted && (

@@ -103,10 +103,10 @@ export const Header = ({ lng }: {
           );
         })}
       </ul>
-      <div className='flex items-center'>
+      <div className='flex items-center gap-1'>
         <Select
           title="Change language"
-          className="w-full"
+          className="w-full flex-1 min-w-[40px] h-[40px]"
           options={OPTIONS}
           onChange={option => {
           // setTheme(option.key)
@@ -118,7 +118,7 @@ export const Header = ({ lng }: {
         />
         <ThemeSwitch 
           lite={false}
-          className="ml-3"
+          className="ml-3 flex-1"
         />
       </div>
     </nav>
