@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { ThemeSwitch } from 'components/ThemeSwitch'
+import { useSelectedLayoutSegment, useRouter } from 'next/navigation'
 import { useTranslation } from 'i18n/client'
 import { Select } from 'components/Select'
 import { useMounted } from 'utils/hooks'
@@ -47,7 +48,10 @@ export const Header = ({ lng }: {
       w: '66px',
     },
   }
+
+  const router = useRouter()
   const mounted = useMounted()
+  const segment = useSelectedLayoutSegment();
 
   return (
     <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-5 pb-16">
@@ -109,7 +113,10 @@ export const Header = ({ lng }: {
           className="w-full flex-1 min-w-[40px] h-[40px]"
           options={OPTIONS}
           onChange={option => {
-          // setTheme(option.key)
+            if (!segment) {
+              return router.push(`/${option.key}`, { forceOptimisticNavigation: false });
+            }
+            return router.push(`/${option.key}/${segment}`, { forceOptimisticNavigation: false });
           }}
           selected={{
             key: lng,
