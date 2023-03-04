@@ -14,7 +14,8 @@ interface JobCardProps {
       text: string
       responsibilities: Array<string>
       technologies: Array<string>
-    }
+    },
+    technologies: string
   }
 }
 const JobCard: FC<JobCardProps> = ({ job }) => {
@@ -51,7 +52,7 @@ const JobCard: FC<JobCardProps> = ({ job }) => {
         </ul>
                             
         <b className="text-[13px]">
-          Technologies used:
+          { job.technologies }
         </b> 
         {job.description.technologies.map((s) => s).join(', ')}.
       </div>

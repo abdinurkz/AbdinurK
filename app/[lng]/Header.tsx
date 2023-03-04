@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
 import { ThemeSwitch } from 'components/ThemeSwitch'
 import { useSelectedLayoutSegment, useRouter } from 'next/navigation'
-import { useTranslation } from 'i18n/client'
+import { useTranslation } from 'internationalization/client'
 import { Select } from 'components/Select'
 import { useMounted } from 'utils/hooks'
 

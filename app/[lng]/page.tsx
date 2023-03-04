@@ -1,7 +1,7 @@
 import Image from 'next/legacy/image'
-import { useTranslation } from 'i18n'
+import { useTranslation } from 'internationalization'
 import Up from 'utils/animations/motions/Up'
-import { languages, fallbackLng } from 'i18n/settings'
+import { languages, fallbackLng } from 'internationalization/settings'
 import { Trans } from 'react-i18next/TransWithoutContext'
 import avatar from './avatar.png'
 

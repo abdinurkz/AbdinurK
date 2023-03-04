@@ -1,4 +1,6 @@
 {
+    "language": "Languages",
+    "experience": "Experience",
     "languages": [
         {
             "id": 1,
@@ -44,7 +46,8 @@
                     "Sendsay",
                     "SCSS"              
                 ]
-            }
+            },
+            "technologies": "Technologies used: "
         },
         {
             "id": 2,
@@ -66,7 +69,8 @@
                     "Redux Saga",
                     "Bootstrap",
                     "SCSS"                ]
-            }
+            },
+            "technologies": "Technologies used: "
         },
         {
             "id": 3,
@@ -89,7 +93,8 @@
                     "React",
                     "Next",
                     "SCSS"                ]
-            }
+            },
+            "technologies": "Technologies used: "
         },
         {
             "id": 4,
@@ -117,7 +122,8 @@
                     "SCSS",
                     "Material UI"
                 ]
-            }
+            },
+            "technologies": "Technologies used: "
         },
         {
             "id": 5,
@@ -143,7 +149,8 @@
                     "Redux",
                     "SCSS"
                 ]
-            }
+            },
+            "technologies": "Technologies used: "
         }
     ]
 }

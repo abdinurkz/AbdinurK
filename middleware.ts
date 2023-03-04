@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from 'next/server'
-import { fallbackLng, languages } from 'i18n/settings'
+import { fallbackLng, languages } from 'internationalization/settings'
 import acceptLanguage from 'accept-language'
 
 acceptLanguage.languages(languages)
