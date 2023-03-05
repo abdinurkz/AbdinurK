@@ -2,12 +2,12 @@
     "full_name": "Қуатбек Әбдінұр",
     "position": "Middle фронтенд әзірлеуші",
     "info": {
-        "intro": "Front-end developer with 2.5 years of commercial experience.Knowledge: React.js, Vue.js, Next.js, Typescript, TailwindCSS, Redux Toolkit, Pinia, Webpack, Vite, Eslint, Prettier. Also, I have:",
+        "intro": "Коммерциялық өнімді әзірлеуде шамамен 2,5 жылдық тәжірибесі бар алдыңғы қатарлы әзірлеушімін. Білімдер: React.js, Vue.js, Next.js, Typescript, TailwindCSS, Redux Toolkit, Pinia, Webpack, Vite, Eslint, Prettier. Сондай-ақ, мен келесідей артықшылықтарымды атап өте аламын:",
         "abilities": {
-            "first": "Ability writing clean, efficient and maintainable code using DRY, KISS, SOLID programming principles.",
-            "second": "Experience of implementing responsive designs that work flawlessly on desktop and mobile devices.",
-            "third": "Strong problem-solving skills and attention to details."
+            "first": "DRY, KISS, SOLID бағдарламалау принциптерін қолдана отырып, таза, тиімді және техникалық қызмет көрсететін кодты жазу мүмкіндігім.",
+            "second": "Жұмыс үстелінде және мобильді құрылғыларда мінсіз жұмыс істейтін дизайнды енгізу тәжірибием.",
+            "third": "Мәселелерді шешудің күшті дағдылары және бөлшектерге назар аударуым."
         },
-        "last": "I will be glad to cooperate and open to new suggestions!"
+        "last": "Мен ынтымақтастыққа қуаныштымын және жаңа ұсыныстарға әрдайым ашықпын!"
     }
 }
