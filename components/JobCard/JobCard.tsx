@@ -22,7 +22,7 @@ const JobCard: FC<JobCardProps> = ({ job }) => {
   return (
     <article className="relative flex flex-col gap-1 mb-6">
       <div className="flex flex-col justify-between items-center md:flex-row">
-        <h3 className="text-base font-semibold m-0 w-full">
+        <h3 className="text-base font-semibold m-0 pl-1 w-full border-l-4 border-l-purple-400">
           { job.position }
         </h3>
         <p className="m-0 text-[13px] w-full md:text-right">
