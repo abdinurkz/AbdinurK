@@ -1,6 +1,15 @@
 {
     "language": "Languages",
     "experience": "Experience",
+    "education": "Education",
+    "universities": [
+        {
+            "id": 1,
+            "text": "The International Information Technology University",
+            "level": "Bachelor",
+            "year": "2017-2021"
+        }
+    ],
     "languages": [
         {
             "id": 1,

@@ -1,7 +1,15 @@
 {
     "language": "Языки",
     "experience": "Опыт",
-    "technologies": "Technologies used: ",
+    "education": "Образование",
+    "universities": [
+        {
+            "id": 1,
+            "text": "Международный университет информационных технологий",
+            "level": "Бакалавр",
+            "year": "2017-2021"
+        }
+    ],
     "languages": [
         {
             "id": 1,
