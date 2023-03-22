@@ -12,5 +12,5 @@
 - Material UI, Bootstrap, Materialize, Antd
 - Webpack, Babel, Eslint, Prettier, 
 
-- Node + Express / Koa
+- Node + Express / Koa, Nest.js, Prisma
 - Mongo, PostgreSQL, MySQL
