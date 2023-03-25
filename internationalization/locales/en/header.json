@@ -2,5 +2,19 @@
     "main": "Main",
     "cv": "CV",
     "projects": "Projects",
-    "about": "About"
+    "about": "About",
+    "languages": [
+        {
+            "key": "en",
+            "name": "English"
+        },
+        {
+            "key": "ru",
+            "name": "Russian"
+        },
+        {
+            "key": "kk",
+            "name": "Kazakh"
+        }
+    ]
 }

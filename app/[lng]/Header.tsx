@@ -7,7 +7,6 @@ import { ThemeSwitch } from 'components/ThemeSwitch'
 import { useSelectedLayoutSegment, useRouter } from 'next/navigation'
 import { useTranslation } from 'internationalization/client'
 import { Select } from 'components/Select'
-import { useMounted } from 'utils/hooks'
 
 
 const OPTIONS = [
@@ -50,8 +49,8 @@ export const Header = ({ lng }: {
   }
 
   const router = useRouter()
-  const mounted = useMounted()
   const segment = useSelectedLayoutSegment();
+  const languages = t('languages', { returnObjects: true }) as any;
 
   return (
     <nav className="flex justify-between items-center mx-auto max-w-2xl w-full pt-5 pb-16">
@@ -111,7 +110,7 @@ export const Header = ({ lng }: {
         <Select
           title="Change language"
           className="w-full flex-1 min-w-[40px] h-[40px]"
-          options={OPTIONS}
+          options={languages}
           onChange={option => {
             if (!segment) {
               return router.push(`/${option.key}`, { forceOptimisticNavigation: false });
