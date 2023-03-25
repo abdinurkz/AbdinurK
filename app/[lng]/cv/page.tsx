@@ -28,8 +28,8 @@ export default async function CV({ params: { lng } }: {
           </h2>
           {
             languages.map((lang) => (
-              <article key={lang.id}>
-                <span>{ lang.text }</span> - <span>{ lang.level }</span>
+              <article key={lang.id} className="text-[13px] flex">
+                <span>{ lang.text }</span><span className="ml-auto">{ lang.level }</span>
               </article>
             ))
           }
@@ -40,7 +40,7 @@ export default async function CV({ params: { lng } }: {
             universities.map((u) => (
               <article key={u.key}>
                 <h4>{ u.text }</h4>
-                <div className="flex w-full justify-between  mt-2">
+                <div className="text-[13px] flex w-full justify-between  mt-2">
                   <p>{ u.level }</p>
                   <span className='text-sm'>{ u.year }</span>
                 </div>
