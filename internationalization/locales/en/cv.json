@@ -32,8 +32,8 @@
             "id": 1,
             "position": "Middle Frontend Engineer",
             "start_date": "May 2022",
-            "end_date": "present",
-            "duration": "8 months",
+            "end_date": "March 2023",
+            "duration": "11 months",
             "company": "LLP Prime Source",
             "type": "Full-time",
             "description": {
@@ -60,7 +60,7 @@
         },
         {
             "id": 2,
-            "position": "Junior Frontend Engineer",
+            "position": "Middle Frontend Engineer",
             "start_date": "Jan 2021",
             "end_date": "Jan 2023",
             "duration": "2 year",

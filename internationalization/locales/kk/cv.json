@@ -32,8 +32,8 @@
             "id": 1,
             "position": "Middle Frontend Engineer",
             "start_date": "Мамыр 2022",
-            "end_date": "қазіргі уақытта",
-            "duration": "8 ай",
+            "end_date": "Наурыз 2023",
+            "duration": "11 ай",
             "company": "ЖШС Prime Source",
             "type": "Фулл-тайм",
             "description": {
@@ -60,7 +60,7 @@
         },
         {
             "id": 2,
-            "position": "Junior Frontend Engineer",
+            "position": "Middle Frontend Engineer",
             "start_date": "Қаңтар 2021",
             "end_date": "Қаңтар 2023",
             "duration": "2 жыл",

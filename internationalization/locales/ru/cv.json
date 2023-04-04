@@ -32,8 +32,8 @@
             "id": 1,
             "position": "Middle Frontend Engineer",
             "start_date": "Май 2022",
-            "end_date": "в настоящее время",
-            "duration": "8 месяцев",
+            "end_date": "Март 2023",
+            "duration": "11 месяцев",
             "company": "ТОО Prime Source",
             "type": "Фулл-тайм",
             "description": {
@@ -60,7 +60,7 @@
         },
         {
             "id": 2,
-            "position": "Junior Frontend Engineer",
+            "position": "Middle Frontend Engineer",
             "start_date": "Янв 2021",
             "end_date": "Янв 2023",
             "duration": "2 года",

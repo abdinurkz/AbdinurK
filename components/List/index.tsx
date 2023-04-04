@@ -21,7 +21,6 @@ export function List() {
       .catch((err) => console.error(err))
   }, [])
 
-  console.log(repos);
   
   return (
     <div>
@@ -87,4 +86,4 @@ export function List() {
       </section>
     </div>
   ) 
-} 
+}
