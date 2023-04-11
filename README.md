@@ -2,9 +2,10 @@
 
 - HTML5, CSS, ES6+, Typescript, Git
 - SASS, BEM, Styled components, TailwindCSS
-- React, Redux Toolkit, Next.js, Effector
+- React, Vue, Vuex, Vite, Redux Toolkit, Next.js, Effector
 - Material UI, Bootstrap, Materialize, Antd
 - Webpack, Babel, Eslint, Prettier,
 
 - Node + Express / Koa, Nest.js, Prisma
 - Mongo, PostgreSQL, MySQL
+- Atomic Design
