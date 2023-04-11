@@ -2,7 +2,7 @@
 
 - HTML5, CSS, ES6+, Typescript, Git
 - SASS, BEM, Styled components, TailwindCSS
-- React, Vue, Vuex, Vite, Redux Toolkit, Next.js, Effector
+- React, Vue, Vuex, Vite, Redux Toolkit, Next.js
 - Material UI, Bootstrap, Materialize, Antd
 - Webpack, Babel, Eslint, Prettier,
 
