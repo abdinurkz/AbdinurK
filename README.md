@@ -8,4 +8,3 @@
 
 - Node + Express / Koa, Nest.js, Prisma
 - Mongo, PostgreSQL, MySQL
-- Atomic Design
