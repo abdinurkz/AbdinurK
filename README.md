@@ -8,3 +8,9 @@
 
 - Node + Express / Koa, Nest.js, Prisma
 - Mongo, PostgreSQL, MySQL
+
+
+### Книги 
+
+- CSS для профи
+- Идеальный программист
