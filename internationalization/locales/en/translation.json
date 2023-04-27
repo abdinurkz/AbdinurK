@@ -2,7 +2,7 @@
     "full_name": "Kuatbek Abdinur",
     "position": "Middle front-end developer",
     "info": {
-        "intro": "Front-end developer with 2.5 years of commercial experience.Knowledge: React.js, Vue.js, Next.js, Typescript, TailwindCSS, Redux Toolkit, Pinia, Webpack, Vite, Eslint, Prettier. Also, I have:",
+        "intro": "Front-end developer with 2.5 years of commercial experience.Knowledge: React.js, Vue.js, Next.js, Typescript, TailwindCSS, Redux Toolkit, Pinia, Webpack, Vite, Vitest, Eslint, Prettier. Also, I have:",
         "abilities": {
             "first": "Ability writing clean, efficient and maintainable code using DRY, KISS, SOLID programming principles.",
             "second": "Experience of implementing responsive designs that work flawlessly on desktop and mobile devices.",
