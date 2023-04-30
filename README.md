@@ -5,7 +5,6 @@
 - React, Vue, Vuex, Vite, Redux Toolkit, Next.js, Nuxt.js, Vitest, Pinia
 - Material UI, Bootstrap, Materialize, Antd
 - Webpack, Babel, Eslint, Prettier
-- Github, Gitlab
 
 - Node + Express / Koa, Nest.js, Prisma
 - Mongo, PostgreSQL, MySQL
