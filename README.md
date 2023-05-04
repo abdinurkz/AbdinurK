@@ -1,6 +1,6 @@
 ### Языки и технологии
 
-- HTML5, CSS, Javascript ES6, Typescript, Git
+- HTML5, CSS3, Javascript ES6, Typescript, Git
 - SASS, BEM, Styled components
 - React, Vue, Vuex, Vite, Redux Toolkit, Next.js, Nuxt.js, Vitest, Pinia
 - Material UI, Bootstrap, Materialize, Antd, TailwindCSS
