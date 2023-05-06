@@ -8,6 +8,7 @@
 
 - Node + Express / Koa, Nest.js, Prisma
 - Mongo, PostgreSQL, MySQL
+- npm, yarn
 
 
 ### Книги 
